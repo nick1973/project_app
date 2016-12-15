@@ -15,7 +15,7 @@
 
                         {{ Form::model($requirements, ['route' => ['requirements.update', $requirements->id], 'class' => 'form-horizontal', 'method' => 'PATCH']) }}
                         <input name="project_id" value="{{ $requirements->project_id }}" hidden>
-                        @if(Auth::user()->name == "Nick" || !Auth::user()->name == "Trevor")
+                        @if(!Auth::user()->name == "Nick" || !Auth::user()->name == "Trevor")
                             <?php $readonly = 'readonly' ?>
                             @else
                             <?php $readonly = '' ?>
