@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e686dff2-7a7f-428d-a2d8-1037ebec590e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/requirements/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/requirements/edit.blade.php" />
     </list>
@@ -50,12 +49,12 @@
       <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/requirements/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="237">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <marker date="1481821812623" expanded="true" signature="6368:6503" ph="..." />
-                <marker date="1481821812623" expanded="true" signature="6380:6501" ph="..." />
-                <marker date="1481821812623" expanded="true" signature="6381:6500" ph="..." />
+                <marker date="1481822641087" expanded="true" signature="6367:6502" ph="..." />
+                <marker date="1481822641087" expanded="true" signature="6379:6500" ph="..." />
+                <marker date="1481822641087" expanded="true" signature="6380:6499" ph="..." />
               </folding>
             </state>
           </provider>
@@ -227,7 +226,7 @@
       <option name="presentableId" value="Default" />
       <updated>1481731411422</updated>
       <workItem from="1481731413640" duration="27364000" />
-      <workItem from="1481817647027" duration="1790000" />
+      <workItem from="1481817647027" duration="2582000" />
     </task>
     <task id="LOCAL-00001" summary="ttee">
       <created>1481818968013</created>
@@ -236,11 +235,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481818968014</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ttee">
+      <created>1481821826722</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1481821826722</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29154000" />
+    <option name="totallyTimeSpent" value="29946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -252,7 +258,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -320,9 +326,9 @@
         <state relative-caret-position="2914">
           <caret line="94" column="57" selection-start-line="94" selection-start-column="57" selection-end-line="94" selection-end-column="57" />
           <folding>
-            <marker date="1481821812623" expanded="true" signature="6368:6503" ph="..." />
-            <marker date="1481821812623" expanded="true" signature="6380:6501" ph="..." />
-            <marker date="1481821812623" expanded="true" signature="6381:6500" ph="..." />
+            <marker date="1481822641087" expanded="true" signature="6367:6502" ph="..." />
+            <marker date="1481822641087" expanded="true" signature="6379:6500" ph="..." />
+            <marker date="1481822641087" expanded="true" signature="6380:6499" ph="..." />
           </folding>
         </state>
       </provider>
@@ -563,12 +569,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/requirements/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="237">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1481821812623" expanded="true" signature="6368:6503" ph="..." />
-            <marker date="1481821812623" expanded="true" signature="6380:6501" ph="..." />
-            <marker date="1481821812623" expanded="true" signature="6381:6500" ph="..." />
+            <marker date="1481822641087" expanded="true" signature="6367:6502" ph="..." />
+            <marker date="1481822641087" expanded="true" signature="6379:6500" ph="..." />
+            <marker date="1481822641087" expanded="true" signature="6380:6499" ph="..." />
           </folding>
         </state>
       </provider>
