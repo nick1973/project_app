@@ -15,10 +15,10 @@
 
                         {{ Form::model($requirements, ['route' => ['requirements.update', $requirements->id], 'class' => 'form-horizontal', 'method' => 'PATCH']) }}
                         <input name="project_id" value="{{ $requirements->project_id }}" hidden>
-                        @if(!Auth::user()->name == "Nick" || !Auth::user()->name == "Trevor")
-                            <?php $readonly = 'readonly' ?>
+                        @if(Auth::user()->name == "Nick" || Auth::user()->name == "Trevor")
+                                <?php $readonly = '' ?>
                             @else
-                            <?php $readonly = '' ?>
+                                <?php $readonly = 'readonly' ?>
                         @endif
                             <div class="form-group">
                                 <label for="inputEmail3" class="col-sm-2 control-label">Name</label>

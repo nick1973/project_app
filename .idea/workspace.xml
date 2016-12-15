@@ -49,12 +49,12 @@
       <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/requirements/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="392">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
-                <marker date="1481822693262" expanded="true" signature="6368:6503" ph="..." />
-                <marker date="1481822693262" expanded="true" signature="6380:6501" ph="..." />
-                <marker date="1481822693262" expanded="true" signature="6381:6500" ph="..." />
+                <marker date="1481822923870" expanded="true" signature="6374:6509" ph="..." />
+                <marker date="1481822923870" expanded="true" signature="6386:6507" ph="..." />
+                <marker date="1481822923870" expanded="true" signature="6387:6506" ph="..." />
               </folding>
             </state>
           </provider>
@@ -226,7 +226,7 @@
       <option name="presentableId" value="Default" />
       <updated>1481731411422</updated>
       <workItem from="1481731413640" duration="27364000" />
-      <workItem from="1481817647027" duration="2642000" />
+      <workItem from="1481817647027" duration="2888000" />
     </task>
     <task id="LOCAL-00001" summary="ttee">
       <created>1481818968013</created>
@@ -249,11 +249,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481822654367</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ttee">
+      <created>1481822714142</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1481822714142</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30006000" />
+    <option name="totallyTimeSpent" value="30252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -333,9 +340,9 @@
         <state relative-caret-position="2914">
           <caret line="94" column="57" selection-start-line="94" selection-start-column="57" selection-end-line="94" selection-end-column="57" />
           <folding>
-            <marker date="1481822693262" expanded="true" signature="6368:6503" ph="..." />
-            <marker date="1481822693262" expanded="true" signature="6380:6501" ph="..." />
-            <marker date="1481822693262" expanded="true" signature="6381:6500" ph="..." />
+            <marker date="1481822923870" expanded="true" signature="6374:6509" ph="..." />
+            <marker date="1481822923870" expanded="true" signature="6386:6507" ph="..." />
+            <marker date="1481822923870" expanded="true" signature="6387:6506" ph="..." />
           </folding>
         </state>
       </provider>
@@ -576,12 +583,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/requirements/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="392">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
-            <marker date="1481822693262" expanded="true" signature="6368:6503" ph="..." />
-            <marker date="1481822693262" expanded="true" signature="6380:6501" ph="..." />
-            <marker date="1481822693262" expanded="true" signature="6381:6500" ph="..." />
+            <marker date="1481822923870" expanded="true" signature="6374:6509" ph="..." />
+            <marker date="1481822923870" expanded="true" signature="6386:6507" ph="..." />
+            <marker date="1481822923870" expanded="true" signature="6387:6506" ph="..." />
           </folding>
         </state>
       </provider>
