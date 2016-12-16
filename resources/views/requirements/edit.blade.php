@@ -76,21 +76,33 @@
                         </div>
                         <div class="form-group">
                             <label for="inputEmail3" class="col-sm-2 control-label">
-                                Bugs </label>
+                                Bugs
+                                <i style="color: red" class="fa fa-info-circle fa-lg" data-container="body" data-toggle="popover"
+                                   data-placement="left" data-content="Bugs are when the requirement you are
+                                        testing doesn't work or work as you expected."></i>
+                            </label>
                             <div class="col-sm-10">
                                 <textarea name="bugs" class="form-control">{{ $requirements->bugs }}</textarea>
                             </div>
                         </div>
                             <div class="form-group">
                                 <label for="inputEmail3" class="col-sm-2 control-label">
-                                    Aesthetics </label>
+                                    Aesthetics
+                                    <i style="color: red" class="fa fa-info-circle fa-lg" data-container="body" data-toggle="popover"
+                                       data-placement="left" data-content="Aesthetics is when you think things would look better
+                                       a different way on the layout or a change of colour."></i>
+                                </label>
                                 <div class="col-sm-10">
                                     <textarea name="aesthetic" class="form-control">{{ $requirements->aesthetic }}</textarea>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="inputEmail3" class="col-sm-2 control-label">
-                                    Wishlist </label>
+                                    Wishlist
+                                    <i style="color: red" class="fa fa-info-circle fa-lg" data-container="body" data-toggle="popover"
+                                       data-placement="left" data-content="Add Ideas here about the requirements
+                                       additional functions or processes."></i>
+                                </label>
                                 <div class="col-sm-10">
                                     <textarea name="wish_list" class="form-control">{{ $requirements->wish_list }}</textarea>
                                 </div>
