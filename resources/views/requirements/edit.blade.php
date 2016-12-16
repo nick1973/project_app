@@ -12,7 +12,7 @@
                             @else
                             <h2>Adding / Editing Feedback for {{ $project->name }}.</h2>
                         @endif
-
+                            <button class="btn btn-default" onclick="goBack()">Back</button>
                         {{ Form::model($requirements, ['route' => ['requirements.update', $requirements->id], 'class' => 'form-horizontal', 'method' => 'PATCH']) }}
                         <input name="project_id" value="{{ $requirements->project_id }}" hidden>
                         @if(Auth::user()->name == "Nick" || Auth::user()->name == "Trevor")

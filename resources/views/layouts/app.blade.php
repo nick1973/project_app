@@ -83,5 +83,10 @@
 
     <!-- Scripts -->
     <script src="/js/app.js"></script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 </body>
 </html>
