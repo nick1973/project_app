@@ -47,7 +47,7 @@
                                                 <a href="{{ $requirement->id }}/edit" class="btn btn-warning btn-xs">Feedback</a>
                                             @endif
                                             </td>
-                                            <td>{{ $requirement->created_at }}</td>
+                                            <td>{{ $requirement->created_at->diffForHumans() }}</td>
                                         <td>{{ $requirement->name }}</td>
                                         <td>{{ $requirement->requirements }}</td>
                                         <td>{{ $requirement->process }}</td>
