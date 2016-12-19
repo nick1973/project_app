@@ -45,7 +45,11 @@
                                             <td>
                                             @if($requirement->passed==0)
                                                 <a href="{{ $requirement->id }}/edit" class="btn btn-warning btn-xs">Feedback</a>
-                                            @endif
+                                            @else
+                                                    @if(Auth::user()->name == "Nick" || Auth::user()->name == "Trevor")
+                                                        <a href="{{ $requirement->id }}/edit" class="btn btn-warning btn-xs">Feedback</a>
+                                                    @endif
+                                                @endif
                                             </td>
                                             <td>{{ $requirement->created_at->diffForHumans() }}</td>
                                         <td>{{ $requirement->name }}</td>
