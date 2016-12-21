@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e686dff2-7a7f-428d-a2d8-1037ebec590e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/emails/success.blade.php" afterPath="$PROJECT_DIR$/resources/views/emails/success.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/RequirementsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/RequirementsController.php" />
     </list>
     <ignored path="project_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,17 +48,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequirementsController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RequirementsController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RequirementsController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="403">
-              <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="success.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="success.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/emails/success.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
@@ -118,8 +118,8 @@
         <option value="$PROJECT_DIR$/resources/views/requirements/index.blade.php" />
         <option value="$PROJECT_DIR$/config/session.php" />
         <option value="$PROJECT_DIR$/config/mail.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/RequirementsController.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/success.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RequirementsController.php" />
       </list>
     </option>
   </component>
@@ -407,7 +407,7 @@
       <updated>1481731411422</updated>
       <workItem from="1481731413640" duration="27364000" />
       <workItem from="1481817647027" duration="12777000" />
-      <workItem from="1482139060743" duration="6631000" />
+      <workItem from="1482139060743" duration="6736000" />
     </task>
     <task id="LOCAL-00001" summary="ttee">
       <created>1481818968013</created>
@@ -514,11 +514,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482330221595</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="emails on passed">
+      <created>1482330455541</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1482330455541</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46772000" />
+    <option name="totallyTimeSpent" value="46877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -880,18 +887,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RequirementsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/emails/success.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="5" column="29" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RequirementsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
           <folding />
         </state>
       </provider>

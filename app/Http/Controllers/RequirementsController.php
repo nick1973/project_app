@@ -43,6 +43,7 @@ class RequirementsController extends Controller
         $requirements = Requirements::find($id);
         $input = $request->all();
         $requirements->update($input);
+        return $request->input('passed');
         if($request->input('passed')=='1'){
             Mail::send('emails.success', ['requirements'=>$requirements], function ($m) {
                 $m->from('system@project-planner.online', 'CTM Application');
