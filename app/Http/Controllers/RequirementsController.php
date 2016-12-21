@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Projects;
 use App\Requirements;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class RequirementsController extends Controller
 {
