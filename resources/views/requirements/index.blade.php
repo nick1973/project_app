@@ -45,7 +45,7 @@
                                             <td>
                                             @if($requirement->passed==0)
                                                 <a href="{{ $requirement->id }}/edit" class="btn btn-warning btn-xs">Feedback</a>
-                                            @else
+                                                @else
                                                     @if(Auth::user()->name == "Nick" || Auth::user()->name == "Trevor")
                                                         <a href="{{ $requirement->id }}/edit" class="btn btn-warning btn-xs">Feedback</a>
                                                     @endif
