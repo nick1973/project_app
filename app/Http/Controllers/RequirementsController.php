@@ -47,7 +47,7 @@ class RequirementsController extends Controller
         if($request->input('passed')=='1'){
             Mail::send('emails.success', ['requirements'=>$requirements], function ($m) {
                 $m->from('system@project-planner.online', 'CTM Application');
-                $m->to('nick.ashford@ctm.uk.com')->subject('Project Planner Update');
+                $m->to('nick.ashford@ctm.uk.com', 'trevor.chappel@ctm.uk.com')->subject('Project Planner Update');
             });
         }
         return redirect('/projects/requirements/'.$requirements->project_id);
