@@ -26,15 +26,17 @@
                                     @endif
                                 </thead>
                                 <tbody>
-                                    <tr>
+
                                         @foreach($projects as $proj)
+                                            <tr>
                                             <td>{{ $proj->name }}</td>
                                             <td><a href="projects/requirements/{{ $proj->id }}" class="btn btn-primary">Manage</a></td>
                                             @if(Auth::user()->name == "Nick" || Auth::user()->name == "Trevor")
                                                 <td><a href="projects/{{ $proj->id }}/edit" class="btn btn-default">Edit</a></td>
                                             @endif
+                                            </tr>
                                         @endforeach
-                                    </tr>
+
                                 </tbody>
                             </table>
                         </div>
