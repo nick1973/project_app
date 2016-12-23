@@ -29,6 +29,7 @@
                                 <th width="250">Process</th>
                                 <th>URL</th>
                                 <th>Tested By</th>
+                                <th>Developed</th>
                                 <th>Passed</th>
                                 <th>Bugs</th>
                                 <th>Aesthetics</th>
@@ -57,6 +58,11 @@
                                         <td>{{ $requirement->process }}</td>
                                         <td>{{ $requirement->url }}</td>
                                         <td>{{ $requirement->tested_by }}</td>
+                                            @if($requirement->development==1)
+                                                <td>YES</td>
+                                            @else
+                                                <td>No</td>
+                                            @endif
                                             @if($requirement->passed==1)
                                                 <td>YES</td>
                                                 @else
