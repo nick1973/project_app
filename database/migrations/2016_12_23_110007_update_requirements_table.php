@@ -15,6 +15,7 @@ class UpdateRequirementsTable extends Migration
     {
         Schema::table('requirements', function ($table) {
             $table->tinyInteger('development');
+            
         });
     }
 
