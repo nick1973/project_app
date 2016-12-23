@@ -59,10 +59,10 @@
                                     }
                                     ?>
                                     <label class="radio-inline">
-                                        <input type="radio" name="developed" id="developed" value="1" {{ $yes }}> Yes
+                                        <input type="radio" name="development" value="1" {{ $yes }}> Yes
                                     </label>
                                     <label class="radio-inline">
-                                        <input type="radio" name="developed" id="inlineRadio2" value="0" {{ $checked }}> No
+                                        <input type="radio" name="development" value="0" {{ $checked }}> No
                                     </label>
                                 </div>
                             </div>
