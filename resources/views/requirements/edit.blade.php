@@ -47,6 +47,26 @@
                                 </div>
                             </div>
 
+                            <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-2 control-label">Developed</label>
+                                <div class="col-sm-10">
+                                    <?php
+                                    $checked = 'checked';
+                                    $yes = '';
+                                    if($requirements->developed==1) {
+                                        $yes = 'checked';
+                                        $checked = '';
+                                    }
+                                    ?>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="developed" id="developed" value="1" {{ $yes }}> Yes
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="developed" id="inlineRadio2" value="0" {{ $checked }}> No
+                                    </label>
+                                </div>
+                            </div>
+
 
                         <div class="form-group">
                             <label for="inputPassword3" class="col-sm-2 control-label">Tested By</label>

@@ -819,6 +819,7 @@ class ComposerStaticInit35418f2cee239828f4c636345355fd59
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
+        'UpdateRequirementsTable' => __DIR__ . '/../..' . '/database/migrations/2016_12_23_110007_update_requirements_table.php',
         'UsersTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UsersTableSeeder.php',
     );
 
