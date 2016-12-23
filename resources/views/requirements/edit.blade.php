@@ -53,7 +53,7 @@
                                     <?php
                                     $checked = 'checked';
                                     $yes = '';
-                                    if($requirements->developed==1) {
+                                    if($requirements->development==1) {
                                         $yes = 'checked';
                                         $checked = '';
                                     }
