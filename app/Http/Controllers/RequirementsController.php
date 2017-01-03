@@ -11,7 +11,7 @@ class RequirementsController extends Controller
 {
     function show($id)
     {
-        $requirements = Requirements::where('project_id', $id)->where('passed', 'No')->orderBy('id', 'desc')->paginate(5);
+        $requirements = Requirements::where('project_id', $id)->orderBy('id', 'desc')->paginate(5);//->where('passed', 'No')
         $project = Projects::find($id);
         return view('requirements.index', compact('requirements', 'project'));
     }
