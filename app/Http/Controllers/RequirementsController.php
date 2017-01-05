@@ -27,7 +27,6 @@ class RequirementsController extends Controller
     {
         $project_id = $request->input('project_id');
         $input = $request->all();
-        return $input;
         Requirements::create($input);
         return redirect('/projects/requirements/'.$project_id);
     }
