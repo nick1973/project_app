@@ -10,6 +10,7 @@
                         <h2>Create Requirements for {{ $project->name }}.</h2>
                         {{ Form::open(['route' => 'requirements.store', 'class' => 'form-horizontal', 'style' => 'padding-top: 10px']) }}
                         <input name="project_id" value="{{ $project->id }}" hidden>
+                        <input name="development" value="0" hidden>
                         <div class="form-group">
                             <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
                             <div class="col-sm-10">

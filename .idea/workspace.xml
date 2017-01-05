@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e686dff2-7a7f-428d-a2d8-1037ebec590e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/RequirementsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/RequirementsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/requirements/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/requirements/create.blade.php" />
     </list>
     <ignored path="project_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RequirementsController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RequirementsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RequirementsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="237">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Requirements.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Requirements.php">
+      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/requirements/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="279">
+              <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -62,7 +62,6 @@
         <option value="$PROJECT_DIR$/resources/views/projects/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/show.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/requirements/create.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_12_15_105853_create_requirements_table.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/config/session.php" />
@@ -78,6 +77,7 @@
         <option value="$PROJECT_DIR$/resources/views/emails/developed.blade.php" />
         <option value="$PROJECT_DIR$/app/Requirements.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/RequirementsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/requirements/create.blade.php" />
       </list>
     </option>
   </component>
@@ -426,7 +426,7 @@
       <workItem from="1482139060743" duration="14088000" />
       <workItem from="1483447315331" duration="1427000" />
       <workItem from="1483608559564" duration="5000" />
-      <workItem from="1483634510181" duration="195000" />
+      <workItem from="1483634510181" duration="447000" />
     </task>
     <task id="LOCAL-00001" summary="ttee">
       <created>1481818968013</created>
@@ -743,11 +743,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483634619937</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Development radio buttons">
+      <created>1483634707610</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1483634707610</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59874000" />
+    <option name="totallyTimeSpent" value="60126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -988,13 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/requirements/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
@@ -1138,16 +1138,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Requirements.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="31">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RequirementsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="237">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/requirements/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
           <folding />
         </state>
       </provider>
